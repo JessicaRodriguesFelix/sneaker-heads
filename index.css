@@ -28,9 +28,12 @@ Images:
 
 h1 {
     background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
-    border-radius: .2em;
+    border-radius: .5em;
     text-align: center;
     font-size: 1.5em;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 body {
@@ -43,7 +46,30 @@ body {
 
 #jordans-2-desc {
     background-color: rgb(251, 64, 64);
+    margin-top: 0%;
+    border-radius: 0.5em;
+    padding: 20px 20px;
+    width: fit-content;
 }
 #jordans-1-desc {
     background-color: rgb(116, 201, 241);
+    margin-top: 0%;
+    border-radius: 0.5em;
+    padding: 20px 20px;
+    text-shadow: 2px 2px black;
+    width: fit-content;
+}
+
+img {
+    width: auto;
+    
+}
+#row1 {
+    margin-left: 20px;
+}
+#row2 {
+    margin-left: 35%;  
+}
+p {
+    color: white;
 }
